@@ -112,7 +112,19 @@ const seriados = [
 		title: 'Dois Homens e Meio',
 		imageURL: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dPCv0RaOj2pRxZcUDOoqXFe7Pqn.jpg',
 		sinopse: 'A vida mulherenga do solteirão Charlie é afetada quando seu irmão divorciado e seu sobrinho de língua afiada vão morar com ele.'
-	}
+	},
+	{
+		id: '21',
+		title: 'Lúcifer',
+		imageURL: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hdKxcoV5CFc3sGOmbGXDXbx1cTZ.jpg',
+		sinopse: 'Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos.'
+	},
+	{
+		id: '22',
+		title: `Grey's Anatomy`,
+		imageURL: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vfsUdzJ8t9s6TuDm1Ahm2f3ahtG.jpg',
+		sinopse: 'Os médicos do Grey Sloan Memorial Hospital lidam diariamente com casos e consequências de vida ou morte. É um no outro que eles encontram apoio, conforto, amizade e, às vezes, até mais que amizade... Juntos, eles descobrem o quanto a vida profissional e a pessoal podem ser complicadas e se misturarem no meio do caminho.'
+	},
 ]
 
 export default seriados;

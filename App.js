@@ -5,7 +5,8 @@ import {
   SafeAreaView, 
   StyleSheet, 
   View, 
-  Text } from 'react-native';
+  Text 
+} from 'react-native';
 import seriados from './src/seriados/Seriados';
 
 export default function App() {
@@ -18,12 +19,12 @@ export default function App() {
         keyExtractor={item => item.id}
         renderItem={({item}) => {
           return (
-            <View style={styles.seriadoView}>
+            <View style={styles.seriadoContainer}>
               <Text style={styles.tituloSeriado}>{item.title}</Text>
               <View>
                 <Image style={styles.imagem} source={{ uri: `${item.imageURL}` }} />
               </View>
-              <View style={styles.sinopseView}>
+              <View style={styles.sinopseContainer}>
                 <Text style={styles.textoSinopse}>{item.sinopse}</Text>
               </View>
             </View>
@@ -39,7 +40,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#fff',
     flex: 1,
-    justifyContent: 'center',
   },
   titulo: {
     fontSize: 30,
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     marginTop: 35,
     textAlign: 'center',
   },
-  seriadoView: {
+  seriadoContainer: {
     alignItems: 'center',
     borderRadius: 10,
     borderWidth: 1,
@@ -61,15 +61,16 @@ const styles = StyleSheet.create({
     fontSize: 25,
     fontWeight: 'bold',
     marginBottom: 10,
+    marginHorizontal: 15,
     textAlign: 'center',
   },
   imagem: {
     borderRadius: 10,
-    width: 260,
+    width: 267,
     height: 400,
     marginBottom: 10,
   },
-  sinopseView: {
+  sinopseContainer: {
     marginBottom: 5,
     marginHorizontal: 8,
   },
