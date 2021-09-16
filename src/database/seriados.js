@@ -7,9 +7,9 @@ const seriados = [
 	},
 	{
 		id: '2',
-		title: 'Diários de um Vampiro',
-		imageURL: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lcGQaSrWkkxGuh0JJqyN2TkuNqb.jpg',
-		sinopse: 'Elena tenta sobreviver entre os seres sobrenaturais que vivem em segredo. Ela se apaixona pelo misterioso Stefan, mas o retorno do seu irmão, Damon, ameaça essa paixão.'
+		title: 'Castlevania',
+		imageURL: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ubDtIBwdS9b29sBofAkqWz3PqkT.jpg',
+		sinopse: 'Um caçador de vampiros luta para salvar uma cidade sitiada por um exército de criaturas controladas pelo próprio Drácula. Inspirado no clássico videogame.'
 	},
 	{
 		id: '3',
