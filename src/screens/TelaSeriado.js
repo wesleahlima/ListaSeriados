@@ -1,13 +1,12 @@
 import React from 'react';
 import {
-    FlatList,
     Image,
     SafeAreaView,
+    ScrollView,
     StatusBar,
     StyleSheet,
     View,
     Text,
-    TouchableOpacity
 } from 'react-native';
 import seriados from '../database/seriados';
 
@@ -17,25 +16,25 @@ export default function App({ route }) {
     return (
         <SafeAreaView style={styles.container}>
             <StatusBar backgroundColor="#000" barStyle="light-content" />
-            <Text style={styles.titulo}>{title}</Text>
-            <View style={styles.seriadoContainer}>
-                <View>
-                    <Image style={styles.imagem} source={{ uri: `${imageURL}` }} />
+            <ScrollView>
+                <Text style={styles.titulo}>{title}</Text>
+                <View style={styles.seriadoContainer}>
+                    <View>
+                        <Image style={styles.imagem} source={{ uri: `${imageURL}` }} />
+                    </View>
+                    <View style={styles.sinopseContainer}>
+                        <Text style={styles.textoSinopse}>{sinopse}</Text>
+                    </View>
                 </View>
-                <View style={styles.sinopseContainer}>
-                    <Text style={styles.textoSinopse}>{sinopse}</Text>
-                </View>
-            </View>
+            </ScrollView>
         </SafeAreaView>
     );
 }
 
 const styles = StyleSheet.create({
     container: {
-        alignItems: 'center',
         backgroundColor: '#FFF',
         flex: 1,
-        justifyContent: 'center',
     },
     titulo: {
         fontSize: 30,
