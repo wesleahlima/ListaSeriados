@@ -1,4 +1,4 @@
-const seriados = [
+export const data = [
 	{
 		id: '1',
 		title: 'Sobrenatural',
@@ -125,6 +125,4 @@ const seriados = [
 		imageURL: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vfsUdzJ8t9s6TuDm1Ahm2f3ahtG.jpg',
 		sinopse: 'Os médicos do Grey Sloan Memorial Hospital lidam diariamente com casos e consequências de vida ou morte. É um no outro que eles encontram apoio, conforto, amizade e, às vezes, até mais que amizade... Juntos, eles descobrem o quanto a vida profissional e a pessoal podem ser complicadas e se misturarem no meio do caminho.'
 	},
-]
-
-export default seriados;
+];
