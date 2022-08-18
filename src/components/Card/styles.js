@@ -3,16 +3,17 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     container: {
         alignItems: 'center',
-        marginBottom: 15
+        marginVertical: 15
     },
     image: {
         aspectRatio: 267 / 400,
         borderRadius: 5,
         height: undefined,
-        marginBottom: 5,
+        marginBottom: 10,
         width: '80%',
     },
     button: {
+        alignItems: 'center',
         backgroundColor: '#fff',
         borderRadius: 5,
         flexDirection: 'row',
