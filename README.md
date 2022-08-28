@@ -25,7 +25,7 @@ https://github.com/wesleylimadeveloper/tv-shows-list.git
 Entrar na pasta do projeto:
 cd tv-shows-list
 
-Instalar dependência:
+Instalar dependências:
 npm install ou yarn install
 
 Executar o projeto:
