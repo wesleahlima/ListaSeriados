@@ -2,6 +2,11 @@
 
 Projeto desenvolvido com Expo, no início dos estudos da biblioteca JavaScript React Native. A aplicação consiste em uma lista de seriados, renderizada com dados locais, utilizando o componente FlatList.
 
+## Bibliotecas utilizadas
+
+- Expo: https://docs.expo.dev/
+- React Navigation: https://reactnavigation.org/docs/getting-started/
+
 ## Como executar o projeto
 
 Pré-requisitos: NPM/ Yarn
